@@ -7,7 +7,7 @@
       "stack": "python",
       "kind": "cli",
       "install": [["${python}", "-m", "pip", "install", "-e", ".[dev]"]],
-      "start": ["csvstat", "--help"]
+      "start": ["${python}", "-m", "csvstat.cli", "--help"]
     }
   ]
 }
